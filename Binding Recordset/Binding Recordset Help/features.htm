@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>Features</TITLE>
+</HEAD>
+<BODY>
+<H1><FONT color=#000080>Features
+<HR>
+</FONT></H1>
+<P>Few&nbsp; Lines to add in your Form_Load event&nbsp; and you will get full 
+control over your form and all included (TextBox - 
+Lables-Buttons-Grid-Recordset) and all related events 
+(Leave-paint-Keypress-AfterColEdit-OnAddNew-Click-MouseEnter-MouseLeave-MouseDown-Enter)</P>
+<P><FONT color=#000080><STRONG>You can:</STRONG></FONT></P>
+<UL>
+  <LI>Navigate first ,previous , next and last 
+  <LI>Add new records ,edit it ,save it , or delete it 
+  <LI>Set relation between master and details files<LI>Retrieve related names to your fields code 
+  <LI>search data for specific formula<LI>Trigger sensitive DataHelp to select from&nbsp;by 
+  pressing F1 
+  <LI>Define required Fields to accept input<LI>Populate your form with data 
+  automatically after focus change</UL>
+<p><b><font color="#000080">Note:<br>
+</font></b>if you develop multi language application or eastern language 
+application , it is recommended to use both of DC.FormTranslator and 
+DC.FormFlipper</p>
+<FONT 
+size=2>
+<P></FONT><FONT color=#000080><STRONG>Example:</STRONG></FONT></P>
+<font SIZE="2">
+<p dir="ltr" align="left"></font>Dim BR As New 
+DynamicComponents.BindingRecordset()</p>
+<p dir="ltr" align="left">'establish DSN</p>
+<p dir="ltr" align="left">oAccess.DBEngine.RegisterDatabase(&quot;DCDM_Nwind&quot;, 
+&quot;Microsoft Access Driver (*.mdb)&quot;, True, &quot;DBQ=&quot; &amp; VB6.GetPath &amp; &quot;\Nwind.mdb&quot;)</p>
+<p dir="ltr" align="left">CN.Open(&quot;DSN=DCDM_NWind&quot;)</p>
+<p dir="ltr" align="left">oOrders.Open(&quot;Orders&quot;, CN, 
+oOrders.CursorType.adOpenKeyset, oOrders.LockType.adLockOptimistic)</p>
+<p dir="ltr" align="left">oOrderDetails.Open(&quot;OrderDetails&quot;, CN, 
+oOrderDetails.CursorType.adOpenKeyset, oOrderDetails.LockType.adLockOptimistic)</p>
+<p dir="ltr" align="left">Me.AxDataGrid1.DataSource = oOrderDetails</p>
+<p dir="ltr" align="left">BR.<a href="InitForm.htm">InitForm</a>(CN, Me, 
+oOrders, AxDataGrid1, oOrderDetails) 'Must Be your first declaration</p>
+<p dir="ltr" align="left">BR.<a href="NavigationButtons.gif">NavigationButtons</a>(&quot;FirstButton&quot;, 
+&quot;PrevButton&quot;, &quot;NextButton&quot;, &quot;LastButton&quot;)</p>
+<p dir="ltr" align="left">BR.<a href="ManageButtons.htm">ManipulationButtons</a>(&quot;OkButton&quot;, 
+&quot;NewButton&quot;, &quot;DeleteButton&quot;, &quot;ExitButton&quot;, &quot;SearchButton&quot;)</p>
+<p dir="ltr" align="left">BR.<a href="KeyFields.htm">KeyFields</a>(&quot;OrderId&quot;)</p>
+<p dir="ltr" align="left">BR.<a href="SetLink.htm">SetLink</a>(&quot;OrderId&quot;, 
+&quot;OrderId&quot;)</p>
+<p dir="ltr" align="left">BR.<a href="addrelatedvalue.htm">AddRelatedValue</a>(&quot;Customers&quot;, 
+&quot;CustomerID&quot;, &quot;CustomerID&quot;, &quot;CustomerName&quot;, &quot;xCustomerName&quot;, 3)</p>
+<p dir="ltr" align="left">BR.<a href="addrelatedvalue.htm">AddRelatedValue</a>(&quot;Shippers&quot;, 
+&quot;ShipperId&quot;, &quot;ShipVia&quot;, &quot;CompanyName&quot;, &quot;xCompanyName&quot;, 2)</p>
+<p dir="ltr" align="left">BR.<a href="AddGridRelatedValue.htm">AddGridRelatedValue</a>(&quot;Products&quot;, 
+&quot;ProductID&quot;, &quot;ProductID&quot;, &quot;ProductName&quot;, &quot;ProductName&quot;, 2)</p>
+<p dir="ltr" align="left">BR.<a href="KeyLeaveField.htm">KeyLeaveField</a>(oOrders, 
+&quot;OrderId&quot;, 5)</p>
+<p dir="ltr" align="left">BR.<a href="RequiredFields.htm">RequiredFields</a>(&quot;OrderId+OrderDate+CustomerId&quot;)</p>
+<p dir="ltr" align="left">BR.<a href="PopulateForm.htm">PopulateForm</a>(Me, 
+oOrders, AxDataGrid1, oOrderDetails) 'Must be your last declaration</p>
+<P><font color="#000080" size="4">after this few lines you will get full automated controling on your form 
+without any additional code to write , it is incredible !</font></P>
+<p>&nbsp;</p>
+</BODY>
+</HTML>

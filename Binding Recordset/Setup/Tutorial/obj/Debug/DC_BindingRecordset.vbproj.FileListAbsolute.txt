@@ -1,0 +1,4 @@
+I:\EgyFirst\Binding Recordset\Setup\Tutorial\obj\Debug\DC_BindingRecordset.vbprojResolveAssemblyReference.cache
+I:\EgyFirst\Binding Recordset\Setup\Tutorial\obj\Debug\DC_BindingRecordset.vbproj.ResolveComReference.cache
+I:\EgyFirst\Binding Recordset\Setup\Tutorial\obj\Debug\TestForm.resources
+I:\EgyFirst\Binding Recordset\Setup\Tutorial\obj\Debug\DC_BindingRecordset.vbproj.GenerateResource.Cache

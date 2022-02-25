@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DynamicComponents.BindingRecordset" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NyIFYBCROWlCBUGRAKKCNAJXsCaoIBGTAIYAgGQjmEE=</HashCode>
+      <FileName>BindingRecordset.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataHelpForm" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGAAAAACACAAgAAAAACACAACAAAAAAABAAAAAACAAAA=</HashCode>
+      <FileName>DataHelpForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyProtection" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kDjAAAAQCCAShAEAOAAAEgJIEAAABQgACAAQPAEMAIA=</HashCode>
+      <FileName>MyProtection.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="General" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAACACQAAABAgAAAAAAAAAAAAAAAEQAAAA=</HashCode>
+      <FileName>General.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Module1" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAAAAAAAAQAQACAAAAAAAQAAAIEAAAg=</HashCode>
+      <FileName>GeneralModule.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

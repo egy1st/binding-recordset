@@ -1,0 +1,40 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=DC BindingRecordset v1.0.chm
+Contents file=DataMangerHelp.hhc
+Default topic=DynamicComponents Binding Recordset.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=DataMangerHelp.hhk
+Language=0x409 English (United States)
+Title=DC BindingRecordset Help
+
+
+[FILES]
+addgridrelatedvalue.htm
+addrelatedvalue.htm
+contact us.htm
+features.htm
+flagfield.htm
+how to order.htm
+initform.htm
+keyfields.htm
+keyleavefield.htm
+license.htm
+overview.htm
+populateform.htm
+requiredfields.htm
+senstive f1 datahelp.htm
+setlink.htm
+system requirements.htm
+Convention.htm
+Configuration Utility.htm
+DynamicComponents Binding Recordset.htm
+Deploying Binding Recordset COM Applications.htm
+Including DC.BindingRecordset.htm
+Installing BindingRecordset COM.htm
+NavigationButtons.htm
+ManageButtons.htm
+
+[INFOTYPES]
+

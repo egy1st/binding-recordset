@@ -1,0 +1,18 @@
+F:\Binding Recordset\Binding Recordset DLL\obj\Release\ResolveAssemblyReference.cache
+F:\Binding Recordset\Binding Recordset DLL\obj\Release\DC_BindingRecordset.vbproj.ResolveComReference.cache
+F:\Binding Recordset\Binding Recordset DLL\obj\Release\DynamicComponents.BindingRecordset.resources
+F:\Binding Recordset\Binding Recordset DLL\obj\Release\DataHelpForm.resources
+F:\Binding Recordset\Binding Recordset DLL\obj\Release\DC_BindingRecordset.vbproj.GenerateResource.Cache
+F:\Binding Recordset\Binding Recordset DLL\obj\Release\Dc_BindingRecordset10.dll
+F:\Binding Recordset\Copy of Binding Recordset DLL\bin\Dc_BindingRecordset10.xml
+F:\Binding Recordset\Copy of Binding Recordset DLL\obj\Release\ResolveAssemblyReference.cache
+F:\Binding Recordset\Copy of Binding Recordset DLL\obj\Release\DC_BindingRecordset.vbproj.ResolveComReference.cache
+F:\Binding Recordset\Copy of Binding Recordset DLL\obj\Release\DynamicComponents.BindingRecordset.resources
+F:\Binding Recordset\Copy of Binding Recordset DLL\obj\Release\DC_BindingRecordset.vbproj.GenerateResource.Cache
+F:\Binding Recordset\Copy of Binding Recordset DLL\obj\Release\Dc_BindingRecordset10.xml
+F:\Binding Recordset\Copy of Binding Recordset DLL\obj\Release\AboutBox1.resources
+F:\Binding Recordset\Copy of Binding Recordset DLL\bin\Dc_BindingRecordset10.exe
+F:\Binding Recordset\Copy of Binding Recordset DLL\obj\Release\Dc_BindingRecordset10.exe
+F:\Binding Recordset\Register it\obj\Release\DC_BindingRecordset.vbproj.ResolveComReference.cache
+F:\Binding Recordset\Register it\obj\Release\Dc_BindingRecordset10.exe
+F:\Binding Recordset\Register it\obj\Release\Dc_BindingRecordset10.xml

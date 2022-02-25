@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DC_BindingRecordset">
+</Property><Property Name="Solution File" Value="I:\EgyFirst\Binding Recordset\Setup\Tutorial\DC_BindingRecordset.sln">
+</Property><Property Name="User Options File" Value="I:\EgyFirst\Binding Recordset\Setup\Tutorial\DC_BindingRecordset.suo">
+</Property><Property Name="Date" Value="Saturday, October 15, 2016">
+</Property><Property Name="Time" Value="22:16 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DC_BindingRecordset.sln" Description="File successfully backed up as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\DC_BindingRecordset.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DC_BindingRecordset.suo" Description="File successfully backed up as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\DC_BindingRecordset.suo">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Project file successfully backed up as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\DC_BindingRecordset.vbproj">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj.user" Description="Project user file successfully backed up as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\DC_BindingRecordset.vbproj.user">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="AssemblyInfo.vb" Description="File successfully backed up as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="2" Project="DC_BindingRecordset" Source="My Project\Resources.Designer.vb" Description="Failed to backup file as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="TestForm.vb" Description="File successfully backed up as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\TestForm.vb">
+</Event><Event ErrorLevel="2" Project="DC_BindingRecordset" Source="My Project\Resources.resx" Description="Failed to backup file as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="TestForm.resx" Description="File successfully backed up as I:\EgyFirst\Binding Recordset\Setup\Tutorial\Backup\TestForm.resx">
+</Event><Event ErrorLevel="1" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DC_BindingRecordset.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DC_BindingRecordset.sln" Description="Converted">
+</Event><Event ErrorLevel="1" Project="DC_BindingRecordset" Source="My Project\Resources.Designer.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="DC_BindingRecordset" Source="My Project\Resources.Designer.vb" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

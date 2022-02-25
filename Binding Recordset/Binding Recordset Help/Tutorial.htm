@@ -1,0 +1,63 @@
+<html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Tutorial</title>
+</head>
+
+<body>
+
+<h1 dir="ltr"><span style="font-weight: 400"><font color="#000080">Tutorial</font></span></h1>
+<hr dir="ltr">
+<p dir="ltr">This tutorial describe most of features supported by 
+DC.BindingRecordset</p>
+<p dir="ltr">also you can refer to the project&nbsp; example which installed by 
+default into C:\Program Files\Dynamic Components\Binding Recordset\<span style="font-weight: 400">Tutorial\</span></p>
+<font SIZE="2">
+<p dir="ltr" align="left">&nbsp;</p>
+<p dir="ltr" align="left"></font>Dim BR As New 
+DynamicComponents.BindingRecordset()</p>
+<p dir="ltr" align="left">Dim CN As New ADODB.Connection()</p>
+<p dir="ltr" align="left">Dim oOrders As New ADODB.Recordset()</p>
+<p dir="ltr" align="left">Dim oOrderDetails As New ADODB.Recordset()</p>
+<p dir="ltr" align="left">Dim oAccess As New Access.Application()</p>
+<p dir="ltr" align="left">Dim DAO_DBEngine As New DAO.DBEngine()</p>
+<p dir="ltr" align="left">&nbsp;</p>
+<p dir="ltr" align="left"><font color="#000080">Private Sub TestForm_Load(ByVal eventSender As 
+System.Object, ByVal eventArgs As System.EventArgs) Handles MyBase.Load</font></p>
+<p dir="ltr" align="left">'establish DSN</p>
+<p dir="ltr" align="left">oAccess.DBEngine.RegisterDatabase(&quot;DCDM_Nwind&quot;, 
+&quot;Microsoft Access Driver (*.mdb)&quot;, True, &quot;DBQ=&quot; &amp; VB6.GetPath &amp; &quot;\Nwind.mdb&quot;)</p>
+<p dir="ltr" align="left">CN.Open(&quot;DSN=DCDM_NWind&quot;)</p>
+<p dir="ltr" align="left">oOrders.Open(&quot;Orders&quot;, CN, 
+oOrders.CursorType.adOpenKeyset, oOrders.LockType.adLockOptimistic)</p>
+<p dir="ltr" align="left">oOrderDetails.Open(&quot;OrderDetails&quot;, CN, 
+oOrderDetails.CursorType.adOpenKeyset, oOrderDetails.LockType.adLockOptimistic)</p>
+<p dir="ltr" align="left">Me.AxDataGrid1.DataSource = oOrderDetails</p>
+<p dir="ltr" align="left">BR.InitForm(CN, Me, oOrders, AxDataGrid1, 
+oOrderDetails) 'Must Be your first declaration</p>
+<p dir="ltr" align="left">BR.NavigationButtons(&quot;FirstButton&quot;, &quot;PrevButton&quot;, &quot;NextButton&quot;, 
+&quot;LastButton&quot;)</p>
+<p dir="ltr" align="left">BR.ManipulationButtons(&quot;OkButton&quot;, &quot;NewButton&quot;, &quot;DeleteButton&quot;, 
+&quot;ExitButton&quot;, &quot;SearchButton&quot;)</p>
+<p dir="ltr" align="left">BR.KeyFields(&quot;OrderId&quot;)</p>
+<p dir="ltr" align="left">BR.SetLink(&quot;OrderId&quot;, &quot;OrderId&quot;)</p>
+<p dir="ltr" align="left">BR.AddRelatedValue(&quot;Customers&quot;, &quot;CustomerID&quot;, &quot;CustomerID&quot;, 
+&quot;CustomerName&quot;, &quot;xCustomerName&quot;, 3)</p>
+<p dir="ltr" align="left">BR.AddRelatedValue(&quot;Shippers&quot;, &quot;ShipperId&quot;, &quot;ShipVia&quot;, 
+&quot;CompanyName&quot;, &quot;xCompanyName&quot;, 2)</p>
+<p dir="ltr" align="left">BR.AddGridRelatedValue(&quot;Products&quot;, &quot;ProductID&quot;, &quot;ProductID&quot;, 
+&quot;ProductName&quot;, &quot;ProductName&quot;, 2)</p>
+<p dir="ltr" align="left">BR.KeyLeaveField(oOrders, &quot;OrderId&quot;, 5)</p>
+<p dir="ltr" align="left">BR.RequiredFields(&quot;OrderId+OrderDate+CustomerId&quot;)</p>
+<p dir="ltr" align="left">BR.PopulateForm(Me, oOrders, AxDataGrid1, 
+oOrderDetails) 'Must be your last declaration</p>
+<font SIZE="2">
+<p dir="ltr" align="left"></font><font color="#000080">End Sub</font></p>
+
+</body>
+
+</html>

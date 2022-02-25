@@ -1,0 +1,6 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DC_BindingRecordset.vbproj.ResolveComReference.cache
+obj\Release\DynamicComponents.BindingRecordset.resources
+obj\Release\DataHelpForm.resources
+obj\Release\DC_BindingRecordset.vbproj.GenerateResource.Cache
+obj\Release\Dc_BindingRecordset10.dll

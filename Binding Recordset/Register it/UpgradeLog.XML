@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DC_BindingRecordset">
+</Property><Property Name="Solution File" Value="I:\Binding Recordset\Binding Recordset DLL\DC_BindingRecordset.sln">
+</Property><Property Name="User Options File" Value="I:\Binding Recordset\Binding Recordset DLL\DC_BindingRecordset.suo">
+</Property><Property Name="Date" Value="Wednesday, December 19, 2007">
+</Property><Property Name="Time" Value="22:39 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DC_BindingRecordset.sln" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\DC_BindingRecordset.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DC_BindingRecordset.suo" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\DC_BindingRecordset.suo">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Project file successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\DC_BindingRecordset.vbproj">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj.user" Description="Project user file successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\DC_BindingRecordset.vbproj.user">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="AssemblyInfo.vb" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="BindingRecordset.vb" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\BindingRecordset.vb">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DataHelpForm.vb" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\DataHelpForm.vb">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="General.vb" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\General.vb">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="GeneralModule.vb" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\GeneralModule.vb">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="MyProtection.vb" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\MyProtection.vb">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="BindingRecordset.resx" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\BindingRecordset.resx">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DataHelpForm.resx" Description="File successfully backed up as I:\Binding Recordset\Binding Recordset DLL\Backup\DataHelpForm.resx">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DC_BindingRecordset.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DC_BindingRecordset.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DC_BindingRecordset" Source="DC_BindingRecordset.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

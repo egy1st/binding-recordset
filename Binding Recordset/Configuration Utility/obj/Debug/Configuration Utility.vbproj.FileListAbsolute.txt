@@ -1,0 +1,10 @@
+F:\Binding Recordset\Configuration Utility\obj\Debug\Configuration Utility.vbproj.ResolveComReference.cache
+F:\Binding Recordset\Configuration Utility\obj\Debug\Configuration Utility.exe
+F:\Binding Recordset\Configuration Utility\obj\Debug\Configuration Utility.pdb
+F:\Binding Recordset\Configuration Utility\obj\Debug\ResolveAssemblyReference.cache
+F:\Binding Recordset\Configuration Utility\obj\Debug\DynamicComponents.ConfigurationForm.resources
+F:\Binding Recordset\Configuration Utility\obj\Debug\Configuration Utility.vbproj.GenerateResource.Cache
+F:\Binding Recordset\Configuration Utility\bin\Configuration Utility.exe
+F:\Binding Recordset\Configuration Utility\bin\Configuration Utility.pdb
+F:\Binding Recordset\Configuration Utility\bin\Configuration Utility.xml
+F:\Binding Recordset\Configuration Utility\obj\Debug\Configuration Utility.xml
